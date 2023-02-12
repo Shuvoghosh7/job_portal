@@ -9,22 +9,25 @@ const Navbar = () => {
     }
     return (
         <nav className="navbar">
-        <div className="container">
-            <div className="brand-logo">
-                Job Portal
+            <div className="container">
+                <div className="brand-logo">
+                    Job Portal
+                </div>
+                <div className="menu-icon" onClick={handleShowNavbar}>
+                    click
+                </div>
+                <div className={`nav-elements  ${showNavbar && 'active'}`}>
+                    <ul>
+                        <li>
+                            <Link to='/'>Home</Link>
+                        </li>
+                        <li>
+                            <Link to='/dashboard'>Dashboard</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div className="menu-icon" onClick={handleShowNavbar}>
-               click
-            </div>
-            <div className={`nav-elements  ${showNavbar && 'active'}`}>
-                <ul>
-                    <li>
-                        <Link to='/'>Home</Link>
-                    </li> 
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </nav>
     );
 };
 
