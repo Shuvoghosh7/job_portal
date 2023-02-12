@@ -1,0 +1,25 @@
+.jobs-details-content{
+
+
+}
+.job-title{
+    color: #26ae61;
+    font-size: 20px;
+}
+.jobs-description{
+    background: #424242;
+    border-radius: 6px 6px 0 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid #eaeff5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.jobs-description-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

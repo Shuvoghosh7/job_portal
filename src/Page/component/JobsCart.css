@@ -1,0 +1,47 @@
+.jobs-cart{
+    background: #fff;
+    padding: 15px;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -ms-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    min-height: 113px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    border-bottom: 2px solid #fff;
+}
+.jobs-cart:hover{
+    box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
+    border-color: #5e2dfa;
+}
+.jobs-title{
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.jobs-company{
+    color: #263bd6;
+    margin-top: 5px;
+}
+.jobs-time{
+    background: #6ACA00;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    padding: 4px 6px;
+}
+
+.apply-btn{
+    background: #fff;
+    display: inline-block;
+    color: #263bd6;
+    font-weight: 600;
+    padding: 9px 15px;
+    margin-top: 20px;
+    border: 1px solid #263bd6;
+}
+.apply-btn:hover{
+    background: #263bd6;
+    color: #fff;
+    text-decoration: none;
+}
