@@ -1,0 +1,25 @@
+.banner{
+    background-image: url(../../../Assets/slider_bg.jpg);
+    min-height: 559px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.banner-title{
+    font-size: 74px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+.banner-Keywords{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
