@@ -6,7 +6,7 @@ const ApplyJob = () => {
     const { register, handleSubmit } = useForm();
     const { jobId } = useParams()
     const [jobs, setJobs] = useState([])
-    console.log(jobs._id)
+   
     useEffect(() => {
         fetch(`http://localhost:5000/jobs/${jobId}`)
             .then(res => res.json())
@@ -22,6 +22,7 @@ const ApplyJob = () => {
                 name: jobs.jobTitle,
                 id: jobs._id
             },
+            uploadResume:data.uploadResume
 
         };
 
@@ -110,6 +111,17 @@ const ApplyJob = () => {
                             placeholder="Highest Education Name"
                             className="input input-bordered bg-white w-full py-3 rounded-md"
                             {...register("highestEducation")}
+                        />
+                    </div>
+                    <div className="form-control w-full mx-auto">
+                        <label className="label">
+                            <span className="label-text text-xl font-medium ">Resume Link</span>
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="upload Resume"
+                            className="input input-bordered bg-white w-full py-3 rounded-md"
+                            {...register("uploadResume")}
                         />
                     </div>
                     <div className='flex justify-between items-center w-full'>

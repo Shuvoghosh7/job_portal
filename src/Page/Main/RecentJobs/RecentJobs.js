@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import JobsCart from '../component/JobsCart';
 import './RecentJobs.css'
 const RecentJobs = () => {
@@ -20,6 +21,9 @@ const RecentJobs = () => {
                     job={job}
                     />)
                 }
+            </div>
+            <div className='text-center mb-5 mt-12'>
+                <Link to='/browseAllJobs' className='all-jobs'>Browse All Jobs</Link>
             </div>
         </div>
     );
